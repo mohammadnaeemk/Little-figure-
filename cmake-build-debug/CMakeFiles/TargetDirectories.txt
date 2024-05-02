@@ -1,3 +1,3 @@
-D:/Naeem/Daneshgah/TERM2/pishrafte/tamrin4/tamrin3/cmake-build-debug/CMakeFiles/tamrin3.dir
-D:/Naeem/Daneshgah/TERM2/pishrafte/tamrin4/tamrin3/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Naeem/Daneshgah/TERM2/pishrafte/tamrin4/tamrin3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Naeem/Daneshgah/TERM2/pishrafte/tamrin4/Little-figure-/cmake-build-debug/CMakeFiles/tamrin3.dir
+D:/Naeem/Daneshgah/TERM2/pishrafte/tamrin4/Little-figure-/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Naeem/Daneshgah/TERM2/pishrafte/tamrin4/Little-figure-/cmake-build-debug/CMakeFiles/rebuild_cache.dir

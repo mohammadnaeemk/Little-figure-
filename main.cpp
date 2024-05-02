@@ -6,19 +6,43 @@ using namespace  std;
 
 class Shape
 {
-private:
-    vector< vector<float>> Points;
+protected:
+    int A = 0 , B = 0 , C = 0 ,D = 0;
+ vector<pair<int,int>> Points;
 public:
-virtual float ret_area()=0;
 
+    void AddPointer (int count)
+    {
+        int X,Y;
+        for (int i = 0; i < count; ++i) {
+            cin>>X;
+            cin>>Y;
+            Points[i].first = X;
+            Points[i].second = Y;
+        }
+    }
+    virtual float retArea()=0;
+    virtual float retPerimeter()=0;
+    virtual string whatIsThis()=0;
+    virtual  void ShapePainter()=0;
+    virtual void LengthCalculator()=0;
 };
 class Foursquare:public Shape
 {
 public:
-    float ret_area(){
+    void LengthCalculator()
+    {
 
     }
-    float PerimeterCalculator()
+    string whatIsThis()
+    {
+
+    }
+     float retArea()
+    {
+
+    }
+     float retPerimeter()
     {
 
     }
@@ -30,21 +54,38 @@ public:
 class Triangle:public Shape
 {
 public:
-    float PerimeterCalculator()
+    void LengthCalculator()
     {
 
     }
-    float ret_area(){
+    string whatIsThis()
+    {
 
     }
+    float retArea()
+    {
+
+    }
+    float retPerimeter()
+    {
+
+    }
+    void ShapePainter(){} //nothing
 };
 
 int main() {
     int number;
     cin>>number;
-    for (int i = 0; i < number; ++i) {
-
+    Shape* shape ;
+    if(number==4)
+    {
+      shape = new Foursquare ;
     }
+    else
+    {
+        shape =  new Triangle ;
+    }
+
 
     return 0;
 }
